@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C00188B1943F3DC00659B58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C00188A1943F3DC00659B58 /* Foundation.framework */; };
+		4C00188D1943F3DD00659B58 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C00188C1943F3DD00659B58 /* CoreGraphics.framework */; };
+		4C00188F1943F3DD00659B58 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C00188E1943F3DD00659B58 /* UIKit.framework */; };
+		4C0018951943F3DD00659B58 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C0018931943F3DD00659B58 /* InfoPlist.strings */; };
+		4C0018971943F3DD00659B58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0018961943F3DD00659B58 /* main.m */; };
+		4C00189B1943F3DD00659B58 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C00189A1943F3DD00659B58 /* AppDelegate.m */; };
+		4C00189D1943F3DD00659B58 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C00189C1943F3DD00659B58 /* Images.xcassets */; };
+		4C0018A41943F3DD00659B58 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C0018A31943F3DD00659B58 /* XCTest.framework */; };
+		4C0018A51943F3DD00659B58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C00188A1943F3DC00659B58 /* Foundation.framework */; };
+		4C0018A61943F3DD00659B58 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C00188E1943F3DD00659B58 /* UIKit.framework */; };
+		4C0018AE1943F3DD00659B58 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C0018AC1943F3DD00659B58 /* InfoPlist.strings */; };
+		4C0018B01943F3DD00659B58 /* BTSplitViewExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0018AF1943F3DD00659B58 /* BTSplitViewExampleTests.m */; };
+		4C0018BE1943F46F00659B58 /* BTSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0018BB1943F46F00659B58 /* BTSplitViewController.m */; };
+		4C0018BF1943F46F00659B58 /* BTSplitViewDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0018BD1943F46F00659B58 /* BTSplitViewDefinition.m */; };
+		4C0018C51943F49500659B58 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0018C41943F49500659B58 /* DetailViewController.m */; };
+		4C0018C81943F4A700659B58 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0018C71943F4A700659B58 /* MainViewController.m */; };
+		4C0018CB1943F68E00659B58 /* MasterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0018CA1943F68E00659B58 /* MasterTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C0018A71943F3DD00659B58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C00187F1943F3DC00659B58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C0018861943F3DC00659B58;
+			remoteInfo = BTSplitViewExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C0018871943F3DC00659B58 /* BTSplitViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTSplitViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C00188A1943F3DC00659B58 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4C00188C1943F3DD00659B58 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4C00188E1943F3DD00659B58 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4C0018921943F3DD00659B58 /* BTSplitViewExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BTSplitViewExample-Info.plist"; sourceTree = "<group>"; };
+		4C0018941943F3DD00659B58 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C0018961943F3DD00659B58 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C0018981943F3DD00659B58 /* BTSplitViewExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BTSplitViewExample-Prefix.pch"; sourceTree = "<group>"; };
+		4C0018991943F3DD00659B58 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4C00189A1943F3DD00659B58 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4C00189C1943F3DD00659B58 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4C0018A21943F3DD00659B58 /* BTSplitViewExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTSplitViewExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C0018A31943F3DD00659B58 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4C0018AB1943F3DD00659B58 /* BTSplitViewExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BTSplitViewExampleTests-Info.plist"; sourceTree = "<group>"; };
+		4C0018AD1943F3DD00659B58 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C0018AF1943F3DD00659B58 /* BTSplitViewExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTSplitViewExampleTests.m; sourceTree = "<group>"; };
+		4C0018BA1943F46F00659B58 /* BTSplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTSplitViewController.h; sourceTree = "<group>"; };
+		4C0018BB1943F46F00659B58 /* BTSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSplitViewController.m; sourceTree = "<group>"; };
+		4C0018BC1943F46F00659B58 /* BTSplitViewDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTSplitViewDefinition.h; sourceTree = "<group>"; };
+		4C0018BD1943F46F00659B58 /* BTSplitViewDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSplitViewDefinition.m; sourceTree = "<group>"; };
+		4C0018C31943F49500659B58 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		4C0018C41943F49500659B58 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		4C0018C61943F4A700659B58 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		4C0018C71943F4A700659B58 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		4C0018C91943F68E00659B58 /* MasterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterTableViewController.h; sourceTree = "<group>"; };
+		4C0018CA1943F68E00659B58 /* MasterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C0018841943F3DC00659B58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C00188D1943F3DD00659B58 /* CoreGraphics.framework in Frameworks */,
+				4C00188F1943F3DD00659B58 /* UIKit.framework in Frameworks */,
+				4C00188B1943F3DC00659B58 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C00189F1943F3DD00659B58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C0018A41943F3DD00659B58 /* XCTest.framework in Frameworks */,
+				4C0018A61943F3DD00659B58 /* UIKit.framework in Frameworks */,
+				4C0018A51943F3DD00659B58 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C00187E1943F3DC00659B58 = {
+			isa = PBXGroup;
+			children = (
+				4C0018B91943F46F00659B58 /* BTSplitViewController */,
+				4C0018901943F3DD00659B58 /* BTSplitViewExample */,
+				4C0018A91943F3DD00659B58 /* BTSplitViewExampleTests */,
+				4C0018891943F3DC00659B58 /* Frameworks */,
+				4C0018881943F3DC00659B58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C0018881943F3DC00659B58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C0018871943F3DC00659B58 /* BTSplitViewExample.app */,
+				4C0018A21943F3DD00659B58 /* BTSplitViewExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C0018891943F3DC00659B58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C00188A1943F3DC00659B58 /* Foundation.framework */,
+				4C00188C1943F3DD00659B58 /* CoreGraphics.framework */,
+				4C00188E1943F3DD00659B58 /* UIKit.framework */,
+				4C0018A31943F3DD00659B58 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C0018901943F3DD00659B58 /* BTSplitViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				4C0018991943F3DD00659B58 /* AppDelegate.h */,
+				4C00189A1943F3DD00659B58 /* AppDelegate.m */,
+				4C0018C61943F4A700659B58 /* MainViewController.h */,
+				4C0018C71943F4A700659B58 /* MainViewController.m */,
+				4C0018C91943F68E00659B58 /* MasterTableViewController.h */,
+				4C0018CA1943F68E00659B58 /* MasterTableViewController.m */,
+				4C0018C31943F49500659B58 /* DetailViewController.h */,
+				4C0018C41943F49500659B58 /* DetailViewController.m */,
+				4C00189C1943F3DD00659B58 /* Images.xcassets */,
+				4C0018911943F3DD00659B58 /* Supporting Files */,
+			);
+			path = BTSplitViewExample;
+			sourceTree = "<group>";
+		};
+		4C0018911943F3DD00659B58 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C0018921943F3DD00659B58 /* BTSplitViewExample-Info.plist */,
+				4C0018931943F3DD00659B58 /* InfoPlist.strings */,
+				4C0018961943F3DD00659B58 /* main.m */,
+				4C0018981943F3DD00659B58 /* BTSplitViewExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C0018A91943F3DD00659B58 /* BTSplitViewExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C0018AF1943F3DD00659B58 /* BTSplitViewExampleTests.m */,
+				4C0018AA1943F3DD00659B58 /* Supporting Files */,
+			);
+			path = BTSplitViewExampleTests;
+			sourceTree = "<group>";
+		};
+		4C0018AA1943F3DD00659B58 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C0018AB1943F3DD00659B58 /* BTSplitViewExampleTests-Info.plist */,
+				4C0018AC1943F3DD00659B58 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C0018B91943F46F00659B58 /* BTSplitViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4C0018BA1943F46F00659B58 /* BTSplitViewController.h */,
+				4C0018BB1943F46F00659B58 /* BTSplitViewController.m */,
+				4C0018BC1943F46F00659B58 /* BTSplitViewDefinition.h */,
+				4C0018BD1943F46F00659B58 /* BTSplitViewDefinition.m */,
+			);
+			name = BTSplitViewController;
+			path = ../BTSplitViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C0018861943F3DC00659B58 /* BTSplitViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C0018B31943F3DD00659B58 /* Build configuration list for PBXNativeTarget "BTSplitViewExample" */;
+			buildPhases = (
+				4C0018831943F3DC00659B58 /* Sources */,
+				4C0018841943F3DC00659B58 /* Frameworks */,
+				4C0018851943F3DC00659B58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BTSplitViewExample;
+			productName = BTSplitViewExample;
+			productReference = 4C0018871943F3DC00659B58 /* BTSplitViewExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C0018A11943F3DD00659B58 /* BTSplitViewExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C0018B61943F3DD00659B58 /* Build configuration list for PBXNativeTarget "BTSplitViewExampleTests" */;
+			buildPhases = (
+				4C00189E1943F3DD00659B58 /* Sources */,
+				4C00189F1943F3DD00659B58 /* Frameworks */,
+				4C0018A01943F3DD00659B58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C0018A81943F3DD00659B58 /* PBXTargetDependency */,
+			);
+			name = BTSplitViewExampleTests;
+			productName = BTSplitViewExampleTests;
+			productReference = 4C0018A21943F3DD00659B58 /* BTSplitViewExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C00187F1943F3DC00659B58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Byte;
+				TargetAttributes = {
+					4C0018A11943F3DD00659B58 = {
+						TestTargetID = 4C0018861943F3DC00659B58;
+					};
+				};
+			};
+			buildConfigurationList = 4C0018821943F3DC00659B58 /* Build configuration list for PBXProject "BTSplitViewExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4C00187E1943F3DC00659B58;
+			productRefGroup = 4C0018881943F3DC00659B58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C0018861943F3DC00659B58 /* BTSplitViewExample */,
+				4C0018A11943F3DD00659B58 /* BTSplitViewExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C0018851943F3DC00659B58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C0018951943F3DD00659B58 /* InfoPlist.strings in Resources */,
+				4C00189D1943F3DD00659B58 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C0018A01943F3DD00659B58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C0018AE1943F3DD00659B58 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C0018831943F3DC00659B58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C0018BF1943F46F00659B58 /* BTSplitViewDefinition.m in Sources */,
+				4C0018BE1943F46F00659B58 /* BTSplitViewController.m in Sources */,
+				4C00189B1943F3DD00659B58 /* AppDelegate.m in Sources */,
+				4C0018C81943F4A700659B58 /* MainViewController.m in Sources */,
+				4C0018971943F3DD00659B58 /* main.m in Sources */,
+				4C0018CB1943F68E00659B58 /* MasterTableViewController.m in Sources */,
+				4C0018C51943F49500659B58 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C00189E1943F3DD00659B58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C0018B01943F3DD00659B58 /* BTSplitViewExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C0018A81943F3DD00659B58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C0018861943F3DC00659B58 /* BTSplitViewExample */;
+			targetProxy = 4C0018A71943F3DD00659B58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C0018931943F3DD00659B58 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C0018941943F3DD00659B58 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4C0018AC1943F3DD00659B58 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C0018AD1943F3DD00659B58 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C0018B11943F3DD00659B58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C0018B21943F3DD00659B58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C0018B41943F3DD00659B58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTSplitViewExample/BTSplitViewExample-Prefix.pch";
+				INFOPLIST_FILE = "BTSplitViewExample/BTSplitViewExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4C0018B51943F3DD00659B58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTSplitViewExample/BTSplitViewExample-Prefix.pch";
+				INFOPLIST_FILE = "BTSplitViewExample/BTSplitViewExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4C0018B71943F3DD00659B58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BTSplitViewExample.app/BTSplitViewExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTSplitViewExample/BTSplitViewExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BTSplitViewExampleTests/BTSplitViewExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4C0018B81943F3DD00659B58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BTSplitViewExample.app/BTSplitViewExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTSplitViewExample/BTSplitViewExample-Prefix.pch";
+				INFOPLIST_FILE = "BTSplitViewExampleTests/BTSplitViewExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C0018821943F3DC00659B58 /* Build configuration list for PBXProject "BTSplitViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C0018B11943F3DD00659B58 /* Debug */,
+				4C0018B21943F3DD00659B58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C0018B31943F3DD00659B58 /* Build configuration list for PBXNativeTarget "BTSplitViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C0018B41943F3DD00659B58 /* Debug */,
+				4C0018B51943F3DD00659B58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C0018B61943F3DD00659B58 /* Build configuration list for PBXNativeTarget "BTSplitViewExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C0018B71943F3DD00659B58 /* Debug */,
+				4C0018B81943F3DD00659B58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C00187F1943F3DC00659B58 /* Project object */;
+}
